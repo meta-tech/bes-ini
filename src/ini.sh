@@ -1,6 +1,14 @@
 #!/bin/bash
-
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# @author   a-Sansara - https://git.pluie.org/meta-tech/bes-echo
+# @app      bes-ini
+# @license  GNU GPL v3
+# @date     2017-05-19 22:52:59 CET
+#
 # bes alter '__' to '_' , rename read_ini to bes.ini
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
 # > https://github.com/rudimeier/bash_ini_parser
 # 
@@ -15,7 +23,7 @@
 #
 # See README for usage.
 #
-#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function bes.ini ()
 {
     # Be strict with the prefix, since it's going to be run through eval
@@ -281,6 +289,5 @@ function bes.ini ()
 
     cleanup_bash
 }
-
 
 # < https://github.com/rudimeier/bash_ini_parser
